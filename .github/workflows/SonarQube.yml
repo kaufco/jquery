@@ -25,7 +25,7 @@ jobs:
           SONAR_ARCHITECTURE_EXPORT_GRAPHS: true
           SONAR_ARCHITECTURE_EXPORT_FLAVOR: true
           SONAR_ARCHITECTURE_EXPORT_ISSUES: true
-          SONAR_ARCHITECTURE_OVERSIZE_THRESHOLD: 5
+          SONAR_ARCHITECTURE_OVERSIZE_THRESHOLD: 2
       - name: Store dna xml & json files
         uses: actions/upload-artifact@v4
         with:
