@@ -13,6 +13,7 @@ import support from "./selector/support.js";
 import "./selector/contains.js";
 import "./selector/escapeSelector.js";
 import "./selector/uniqueSort.js";
+import "./offset.js";
 
 var preferredDoc = document,
 	matches = documentElement.matches || documentElement.msMatchesSelector;
